@@ -137,25 +137,6 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.boyztoyzclub"
-       name="Boyz Toyz Club"
-       version="1.0.0"
-       provider-name="Boyz Toyz Club">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-    <summary lang="en">Premium sports streaming service</summary>
-    <description lang="en">This is a premium streaming service. You will need an account from http://www.boyztoyz.club/</description>
-    <disclaimer lang="en">For support please go to http://www.boyztoyz.club/</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.chuckbaker"
 	name="Chuck Baker Youtube Videos"
 	version="1.0.1"
@@ -313,26 +294,6 @@ http://www.kodinerds.net/index.php/Thread/14558-urlResolver-Patches-Verbesserung
   </extension>
 </addon>
 
-<addon id="plugin.video.hushamiptv" name="Husham IPTV TV" version="1.0.3" provider-name="xunitytalk.com">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Husham IPTV TV</summary>
-    <description lang="en">Husham IPTV TV is an IP television over the internet without satellite dish or cable.[CR]For more information, visit [COLOR blue]http://iptv.husham.com[/COLOR]</description>
-    <platform>all</platform>
-	<language></language>
-	<license></license>
-	<forum></forum>
-	<website></website>
-	<source></source>
-	<email></email>
-  </extension>
-</addon>
-
 <addon id="plugin.video.husham-ahalmuhajir"
 	name="Ahalmuhajir"
 	version="1.0.1"
@@ -377,22 +338,6 @@ http://www.kodinerds.net/index.php/Thread/14558-urlResolver-Patches-Verbesserung
   </extension>
 </addon>
 
-<addon id="plugin.video.hushamaddonwizard" name="Husham Addon Wizard" version="1.0.8" provider-name="Husham.com">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Husham Addon Wizard</summary>
-    <description lang="en">Easy Install With KODI / XBMC Wizard </description>
-	<description lang="en">HUSHAM.COM repo One of the oldest standing repo</description>
-    <description lang="en">Helping to stand together</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.hushamnews12kodi16" name="News 12 KODI 16" version="1.0.4" provider-name="Husham.com">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -432,26 +377,6 @@ http://www.kodinerds.net/index.php/Thread/14558-urlResolver-Patches-Verbesserung
     <description>The Husham Memar Video Guides: Addon made by Husham Memar http://www.husham.com</description>
 
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.iptvbuddy" name="IPTV Buddy" version="1.0.12" provider-name="xunitytalk.com">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">IPTV Buddy</summary>
-    <description lang="en">IPTV Buddy TV is an IP television over the internet without satellite dish or cable.[CR]For more information, visit [COLOR blue]http://iptvbuddy.com[/COLOR]</description>
-    <platform>all</platform>
-	<language></language>
-	<license></license>
-	<forum></forum>
-	<website></website>
-	<source></source>
-	<email></email>
   </extension>
 </addon>
 
@@ -567,6 +492,23 @@ http://www.kodinerds.net/index.php/Thread/14558-urlResolver-Patches-Verbesserung
     <summary>Addon made by Hisham marzouk</summary>
     <description>Lebanon from the World : Addon made by Hisham marzouk</description>
 
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.livehub" name="[B][COLOR ghostwhite]Live[/COLOR][COLOR red] Hub[/COLOR][/B]" version="1.8" provider-name="sClarke">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+	<import addon="script.video.F4mProxy" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Live Hub - Bringing Live TV To Your Media Device</summary>
+    <description lang="en">Live Hub - Bringing Live TV To Your Media Device. Kodi 17+ is Recommended.</description>
+	<disclaimer lang="en">The author does not host or own any content found within this Addon. The Author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
@@ -688,53 +630,6 @@ http://www.hometheater.co.il</description>
     <summary>Addon made by Husham Memar and Ryan Lovinn Gemz </summary>
     <description>The Ryan Lovinn Gemz Reggae n Dancehall music</description>
 
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.TalentLottery" name="Talent Lottery" version="1.0.1" provider-name="The Knife (Always sharp content)">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.2.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video audio</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Talent Lottery</summary>
-    <description lang="en">
-Welcome to The Talent Lottery add-on! The only one of its kind where any aspiring [COLOR = yellow](fill in the blank)[/COLOR] can advertise their talent here for free, and possibly win their very own add-on! More importantly, this add-on will give the artist the opportunity to win the greatest prize of all, being discovered by professionals in the field they are pursuing! Talent Agents take notice!
-
-The initial launch of Talent Lottery v1.0.0 and v1.0.1 has the following randomly chosen artists... an aspiring singer/songwriter, a filmmaker, makeup artist, voice actor, animator and dancers. All future artists will be chosen by you the viewer!
-
-Nominate your friend, relative, co-worker or even a stranger that you think deserves to be seen by a NEW audience!
-
-Send your nomination to:
-* [COLOR = blue]the.knife.repo@yandex.com[/COLOR],
-* subject “NOMINATE” in CAPS,
-* copy/paste the Youtube channel, playlist or Youtube user ID.
-
-[COLOR = red]YouTubers please advertise this add-on. It can only be a success with your help. If the response is great then updates will occur on the 1st of each month.  If not, updates will be released quarterly on the following dates...[/COLOR]
-
-- January 1st
-- April 1st
-- July 1st
-- Oct 1st
-
-[COLOR = red]At this time a Knife Repository ZIP file does not exist. You will need to visit[COLOR = blue] http://thekniferepo.wixsite.com/kodi [/COLOR]to manually install the updated Talent Lottery add-on. Please confirm that the version number has been updated on the website before installation.[/COLOR]
-
-For more great addons visit http://thekniferepo.wixsite.com/kodi
-[COLOR = red]-----------------------------------------------------------[/COLOR]
-[COLOR = lime]-----------------------------------------------------------[/COLOR]
-
-
-[COLOR = black]-----------------------------------------------------------[/COLOR]
-
-
-</description>
-
-	<disclaimer>The author does not host or distribute any of the content displayed by this add-on or have any affiliation with the content owners. Content is viewed via this YouTube plugin. This add-on is for educational and entertainment purposes only.</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
@@ -1033,34 +928,6 @@ For more great addons visit http://thekniferepo.wixsite.com/kodi
   </extension>
 </addon>
 
-<addon id="repository.addonscriptorde-beta" name="AddonScriptorDE's Testing Repo" version="1.0.1" provider-name="AddonScriptorDE">
-	<extension point="xbmc.addon.repository" name="AddonScriptorDE's Testing Repo">
-		<info compressed="false">http://addonscriptorde-beta-repo.googlecode.com/svn/trunk/addons.xml</info>
-		<checksum>http://addonscriptorde-beta-repo.googlecode.com/svn/trunk/addons.xml.md5</checksum>
-		<datadir zip="false">http://addonscriptorde-beta-repo.googlecode.com/svn/trunk/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Add-ons and updates that are not (yet) available via the xbmc.org repo</summary>
-		<description>Add-ons and updates that are not (yet) available via the xbmc.org repo</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.aj-addons" name="aj add-ons (new look)" version="1.0.1" provider-name="ajdeveloped">
-	<extension point="xbmc.addon.repository" name="AJ ADD-ONs (NEW LOOK)">
-		<info compressed="false">http://apple-tv2-xbmc.googlecode.com/svn/trunk/AddonsNewLookRepo/addons.xml</info>
-			<checksum>http://apple-tv2-xbmc.googlecode.com/svn/trunk/AddonsNewLookRepo/addons.xml.md5</checksum>
-			<datadir zip="true">http://apple-tv2-xbmc.googlecode.com/svn/trunk/AddonsNewLookRepo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install AJ ADD-ONs with new look and fastest of all.</summary>
-		<description>Enjoy access to Indian media sources like desirulez.net, sominaltvtheatre.com and more. All add-ons provide access to website like a normal browser.</description>
-		<disclaimer>The video add-ons hosted by my XBMC add-ons repository(aj add-ons) makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties, including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights. Further, video add-ons don't warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on the Internet web site where from data is retrieved or otherwise relating to such materials or on any sites linked to this addon. Videos are streamed directly from video-hosting websites that are having full rights to remove such access to video if required. These add-ons access website contents like a normal web browser and show content to users.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="repository.coldkeys" name="ColdKeys Repo" version="1.0.1" provider-name="Coldkeys">
 	<extension point="xbmc.addon.repository" name="ColdKeys Repository">
 		<info compressed="false">https://cdn.rawgit.com/KodiColdkeys/coldkeys-addons/master/repository/addons.xml</info>
@@ -1100,23 +967,6 @@ For more great addons visit http://thekniferepo.wixsite.com/kodi
 	</extension>
 </addon>
 
-    <addon id="repository.kaosbox2" name="KAOSbox Repo" version="2.0.1" provider-name="KAOSbox">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="KAOSbox Repo">
-            <info compressed="false">https://raw.githubusercontent.com/KAOSbox/KAOSbox-Repo/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/KAOSbox/KAOSbox-Repo/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/KAOSbox/KAOSbox-Repo/master/zips/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Official New Repo for the KAOSbox (www.kaosbox.tv)</summary>
-            <description>Download and install addons for the KAOSbox (www.kaosbox.tv)</description>
-            <platform>all</platform>
-    </extension>
-</addon>
-
     <addon id="repository.mathsgrinds" name="mathsgrinds" version="1.0.0" provider-name="mathsgrinds">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
@@ -1132,19 +982,6 @@ For more great addons visit http://thekniferepo.wixsite.com/kodi
             <description>mathsgrinds' Kodi Add-on Repository. Please visit https://github.com/mathsgrinds/ for assistance with this repository.</description>
             <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="repo.natko1412" name="natko1412 repo" version="2.0.0" provider-name="natko1412">
-<extension point="xbmc.addon.repository" name="Natko's Addon Repository">
-<info compressed="false">https://offshoregit.com/natko1412/addons.xml</info>
-<checksum>https://offshoregit.com/natko1412/addons.xml.md5</checksum>
-<datadir zip="true">https://offshoregit.com/natko1412/zips/</datadir>
-</extension>
-<extension point="xbmc.addon.metadata">
-<summary>Install all of Natko's Addons</summary>
-<description>Download and install addons by natko1412. For support visit XBMC thread on forum.hr</description>
-<platform>all</platform>
-</extension>
 </addon>
 
 <addon id="repository.rayw1986" name="RayW1986 Repo" version="2.1.0" provider-name="RayW1986">
@@ -1193,52 +1030,6 @@ For more great addons visit http://thekniferepo.wixsite.com/kodi
 		<disclaimer>By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="repository.titan.addons" name="Titan Repository" version="1.0.0" provider-name="Titan">
-	<extension point="xbmc.addon.repository" name="Offical Titan Add-on Repository">
-		<info compressed="true">https://raw.github.com/titanaddon/titan/master/addons.xml</info>
-		<checksum>https://raw.github.com/titanaddon/titan/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/titanaddon/titan/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install  add-ons from Titan Repo</summary>
-		<description>Releases of Titan addons</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.tknorris.beta" name="tknorris Beta Testing Repository" version="1.0.5" provider-name="tknorris">
-    <extension point="xbmc.addon.repository" name="tknorris beta testing repository">
-	    <dir>
-	        <info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
-	        <checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
-	        <datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
-	    </dir>
-        <dir>
-            <info compressed="false">http://github.com/norris-addons/tknorris-beta-repo/raw/master/addons.xml</info>
-            <checksum>http://github.com/norris-addons/tknorris-beta-repo/raw/master/addons.xml.md5</checksum>
-            <datadir zip="true">http://github.com/norris-addons/tknorris-beta-repo/raw/master/zips/</datadir>
-        </dir>
-        <info compressed="false">http://github.com/tknorris/tknorris-beta-repo/raw/master/addons.xml</info>
-        <checksum>http://github.com/tknorris/tknorris-beta-repo/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">http://github.com/tknorris/tknorris-beta-repo/raw/master/zips/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>This is used ONLY for beta testing</summary>
-        <description>Beta testing only!!!
-DO NOT INSTALL UNLESS YOU WISH TO PARTICIPATE IN BETA TESTING
-
-Addons Included
-    - 1Channel (Beta)
-    - 1Channel Thempak
-    - SALTS (Beta)
-    - SALTS Themepak
-    - Trakt (Beta)
-    - Trakt List Manager (Alpha)
-        </description>
-        <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="repository.he.xbmc" name="HE Xbmc Brasil" version="1.0.1" provider-name="hgarcia/eseffair">

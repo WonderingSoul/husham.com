@@ -870,6 +870,27 @@ For more great addons visit http://thekniferepo.wixsite.com/kodi
   </extension>
 </addon>
 
+<addon id="plugin.video.yt-howard"
+	name="Howard Stern"
+	version="1.0.0"
+	provider-name="Husham Memar youtube Channel">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Howard Stern on YouTube</summary>
+    <description lang="en">Howard Stern KODI addon by Husham Memar, the content on this addon are dynamic and will auto update.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.yt-naim"
 	name="Native American Indian Movies"
 	version="1.0.0"
@@ -948,6 +969,28 @@ For more great addons visit http://thekniferepo.wixsite.com/kodi
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Western Movie Channels addon</summary>
     <description lang="en">Western Movie Channels on YouTube.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ZombieBitesAgain"
+	name="ZombieBitesAgain"
+	version="1.0.0"
+	provider-name="hifi2007">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">ZombieBitesAgain</summary>
+    <description lang="en">ZombieBitesAgain is gaming channel from youtube credits to coldkeys for some code used
+	</description>
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>

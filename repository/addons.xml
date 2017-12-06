@@ -366,7 +366,7 @@ http://www.kodinerds.net/index.php/Thread/14558-urlResolver-Patches-Verbesserung
 
 <addon id="plugin.video.hushamlivenews"
        name="Husham Live News"
-       version="1.0.02"
+       version="1.0.03"
        provider-name="husham.com">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

@@ -1,0 +1,5372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+
+ 
+ <item>
+ <title>Alabama</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+  
+ 
+
+ <item>
+ <title>[COLOR red]Alabama CBS4[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wiat/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Alabama Fox 10 Live[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WALA/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Alabama WAFF[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WAFF/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Alabama WAKA[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WAKA/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+
+ 
+
+ <item>
+ <title>[COLOR red]Alabama WBRC[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/12446860/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Alabama WHNT[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WHNT/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Alabama WKRG Live[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WKRG/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+ <item>
+ <title>[COLOR red]Alabama WSFA[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WSFA/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+ <item>
+ <title>ARIZONA</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Arizona Fox 10 News[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KSAZ/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Arizona KAIT[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KAIT/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+
+ 
+
+ <item>
+ <title>[COLOR red]Arizona KPHO[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/kpho/LIVE</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Arizona KTVK[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KTVK/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Arkansas</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Arkansas KFSM[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Arkansas KFSM[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/10065875/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]California[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]California Fox 11 Los Angeles[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KTTV/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]California KRON Live News[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/kron/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]California KSWB[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KSWB/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]California KTLA[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KTLA/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]California KTXL[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KTXL/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Colorado</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Colorado's Own News[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/kwgn/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Colorado Fox 3 Denver[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/kdvr/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Connecticut</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Connecticut WFSB Live[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wtnh/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Conneticut</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Conneticut News 8[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wfsb/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>DC</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ 
+
+ <item>
+ <title>[COLOR red]DC Fox 5 Washington Live[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wttg/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>District of Columbia</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Florida</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Florida FOX 13 News Tampa Bay[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wtvt/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Florida Fox 51 WOGX[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wogx/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Florida Fox Orlando[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WOFL/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Florida NBC News Channel 8[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WFLA/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Florida WFLX[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WFLX/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Florida WINK News[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/6142119/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Georgia</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Georgia Fox 5 Atlanta[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WAGA/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Georgia WALB[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WALB/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Georgia WFXG[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WFXG/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Georgia WGCL-TV Atlanta[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WGCL/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Georgia WJBF Live[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wjbf/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Georgia WRBL News Live[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wrbl/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Georgia WSAV News 3[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wsav/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Georgia WTOC[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WTOC/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Georgia WTVM[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WTVM/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Idaho</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+
+ 
+ 
+
+ <item>
+ <title>Idaho</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Illinois</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Illinois FOX 32 News[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wfld/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Illinois WQAD[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WQAD/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Indiana</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Indiana WANE-TV 15 Live[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wane/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Indiana WFIE[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WFIE/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Indiana WISH Indianapolis[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wish/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Indiana WLFI West Layfayette[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wlfi/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Indiana WTHI Terre Haute[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wthi/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Indiana WTTV[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WTTV/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Indiana WXIN[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WXIN/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Iowa</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Iowa KIMT News[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/kimt/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Iowa WHO[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WHO/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Kansas</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Kansas Kansas First News[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/ksnt/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Kansas NBC 3 KSN News[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/ksnw/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Kentucky</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Kentucky WAVE 3 NEWS[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wave/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Louisiana</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/7520488/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Louisiana KLFY News 10 Live[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/11595658/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Louisiana KSLA[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KSLA/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Louisiana WAFB[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WAFB/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Louisiana WGNO[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WGNO/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Louisiana WVUE[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WVUE/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Maine</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ 
+
+ <item>
+ <title>Massachusetts</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Massachusetts CBS 3 Springfield[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WSHM/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+
+ 
+
+ <item>
+ <title>[COLOR red]Massachusetts WWLP Springfield[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wwlp/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Michigan</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Michigan Fox 2 WJBK Detroit[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wjbk/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Michigan WLNS Weather First[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wlns/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Michigan WNEM Live[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wnem/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Michigan WOOD TV 8 Live[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wood/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Michigan WXMI[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WXMI/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Minnesota</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Minnesota Fox 9 KMSP[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/kmsp/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Minnesota KAAL[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KAAL/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Minnesota KSTP[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/12150160/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Minnesota WDIO[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WDIO/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Mississippi</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Mississippi WDAM[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WDAM/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Mississippi WJTV News Live[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wjtv/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Mississippi WLBT[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WLBT/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Mississippi WLOX[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WLOX/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Missouri</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Missouri KCTV 5 News[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/kctv/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Missouri KFVS[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KFVS/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Missouri KMOV[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KMOV/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Missouri KSPR Live[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KSPR/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Missouri KTVI Live News[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/ktvi/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Missouri KY3 Live[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KY3/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Missouri WDAF Kansas City[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wdaf/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Montana</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Montana KECI[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KECI/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Montana KTVM[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KTVM/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>New Jersey</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]New Jersey WWOR New Jersey[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wwor/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>New Mexico</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]New Mexico KOB[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KOB/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]New Mexico KRQE Albuquerque[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/krqe/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>New York</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]New York Fox 5 New York[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wnyw/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]New York WHEC[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WHEC/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]New York WIVB4[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WIVB/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]New York WNYT[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WNYT/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]New York WPIX[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WPIX/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+ 
+
+ <item>
+ <title>North Carolina</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]North Carolina WBTV[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WBTV/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]North Carolina WCCB Charlotte's CW[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wccb/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]North Carolina WECT[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WECT/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]North Carolina Fox 8 WGHP[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WGHP/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]WNCN CBS Noprth Carolina[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wncn/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Ohio</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Ohio [/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Fox 8 Cleveland[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/Fox8News/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]NBC4[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wcmh/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]RMG-TV: Rover's Morning Glory[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/242049/events/1978582</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]WDTN Dayton[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/1849558/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]WKBN[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wkbn/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Cleveland WOIO 19[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/11017897/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Fox 36 WTOL[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WTOL/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Fox 19 WXIX[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WXIX/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Oregon</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Oregon KOIN 6[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/koin/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]KOIN 6 Extra[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/koin/events/3314050</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Rhode Island</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]WPRI Providence[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wpri/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>South Dakota</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]KELO[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/kelo/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Pennsylvania</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Fox 29[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wtxf/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]ABC 16 WNEP Scranton[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WNEP/Live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Fox 43[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WPMT/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>South Carolina</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]CBS 7 Live[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wspa/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]WBTW NEWS 13[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wbtw/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]WCBD LIVE NEWS[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wcbd/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]WCSC[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WCSC/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]WIS NEWS 10[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WIS/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]WMBF[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WMBF/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Tennessee</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]6 ABC WATE-TV[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wate/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]NEWS CHANNEL 11[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wjhl/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]NEWSCHANNEL5 LIVE[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/NewsChannel5Plus/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]WMC[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WMCTV/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]WREG News 3[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WREG/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Utah</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]FOX 13 NEWS[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/kstu/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Texas</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]FOX 26 KRIV[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/FOX26Houston/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]FOX 4 KDFW[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/kdfw/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]FOX 7 AUSTIN[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/ktbc/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]KCBD[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KCBD/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]KLTV[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KLTV/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]KTRE[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KTRE/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]KTXS ABC 12[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KTXS/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]KXAN AUSTIN[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KXAN/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Wisconsin</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Wisconsin[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WITI/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Virginia</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]ABC 8 NEWS[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wric/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]CBS 6 WTVR-TV[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WTVR/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]WCYB[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/wcyb/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]WDBJ7 LIVE[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WDBJ/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]WWBT[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/WWBT/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Washington</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Washington[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/KCPQ/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>Undefined</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Fox 10 News[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/1859803/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]9 & 10 News[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/25637691/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]News 24[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/16586959/events/7803832</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Fox 26[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/6396012/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]RMG-TV: Rover's Morning Glory[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/242049/events/1978582</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Kidd Kraddick Morning Show[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/16936513/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Emmanuel TV[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/23202872/events/7200883</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Fox 11[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/6140873/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]KEYT LIVE[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/19285506/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Watch Law & Crime Live Trial Network[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/18968940/events/7055388</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Berry College Nest Cam 1[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/11707815/events/4299357</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]69News Traffic Livestream[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/14384745/traffic</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]VSIN[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/22774234/events/6897936</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]Guaranty 24/7 Live[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/25649901/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]102.3 NOW! TV NOW! TV - LIVE[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/4683311/events/3747538</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]CBS46 Atlanta[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>https://livestream.com/accounts/6140931/live</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 
+ 
+ 
+ 
+
+ <item>
+ <title>[COLOR red]xc[/COLOR]</title>
+ <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+ <regex>
+ <name>get-m3u8final</name>
+ <expres>72.*\s?(http.*?)\s</expres>
+ <page>$doregex[get-m3u8]</page>
+ <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+</regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+ <regex>
+ <name>get-json</name>
+ <expres>config = ({.*})</expres>
+ <page>xxl</page>
+  <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+ <cookieJar></cookieJar>
+ </regex>
+ </item>
+ 

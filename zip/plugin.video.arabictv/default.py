@@ -22,10 +22,6 @@ icon = local.getAddonInfo('icon')
 xbmc.executebuiltin('Container.SetViewMode(500)')
 
 YOUTUBE_CHANNEL_ID_1 = "PL_F9-PDGGdu5Ss6d9LOYb-CJbeV3bogQg"
-#YOUTUBE_CHANNEL_ID_2 = "UCLmDjHLmnXB8cpnYJDUfKCA"
-#YOUTUBE_CHANNEL_ID_3 = "PLZHhFgNF6x35FUWu1a8qysaZhHm4lY3Nf"
-#YOUTUBE_CHANNEL_ID_3 = "PLJ-qZvjnxPlRLXoSY233JNAyrZAe2t3Sr"
-
 
 
 
@@ -52,33 +48,10 @@ def main_list(params):
 	
     plugintools.add_item( 
         #action="", 
-        title="arabic live",
+        title="Husham Arabic live",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_1+"/",
         thumbnail="https://raw.githubusercontent.com/hmemar/husham.com/master/images/icon.png",
         folder=True )
-		
-#    plugintools.add_item( 
-        #action="", 
-        title="arabic movies",
-        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_2+"/",
-        thumbnail="https://i.imgsafe.org/a77b2dd308.jpg",
-        folder=True )
-
-#    plugintools.add_item( 
-        #action="", 
-        title="arabic music",
-        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_3+"/",
-        thumbnail="https://i.imgsafe.org/a780e90c72.jpg",
-        folder=True )   
-		
-#    plugintools.add_item( 
-        #action="", 
-        title="arabic live",
-        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_1+"/",
-        thumbnail="https://i.imgsafe.org/a76f1562af.jpg",
-        folder=True )
-		
-
-   
+		   
 
 run()		

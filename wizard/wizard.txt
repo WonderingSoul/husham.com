@@ -12,6 +12,6 @@ description="P2P AND PLEXUS FIX PLUS REPOS"
 
 name="WS test 001 AR Kodi Repo"
 url="https://https://androidrepublica.website/Repo/repository.androidrepublica-3.0.0.zip"
-img="https://raw.githubusercontent.com/hmemar/husham.com/master/images/hushamme.jpg"
+img="https://androidrepublica.website/Repo/icon.png"
 fanart="https://raw.githubusercontent.com/hmemar/husham.com/master/images/hushamme.jpg"
-description="Husham KODI 15 Fully Loaded Set-up"
+description="Test AR zip before upload own zip"

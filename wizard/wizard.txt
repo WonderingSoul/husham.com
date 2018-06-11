@@ -10,7 +10,7 @@ img="http://i.ytimg.com/vi/98kXr_GxNqo/hqdefault.jpg"
 fanart="http://i.ytimg.com/vi/98kXr_GxNqo/hqdefault.jpg"
 description="P2P AND PLEXUS FIX PLUS REPOS"
 
-name="WS test 001 Kodi 17"
+name="WS test 001 AR Kodi Repo"
 url="https://https://androidrepublica.website/Repo/repository.androidrepublica-3.0.0.zip"
 img="https://raw.githubusercontent.com/hmemar/husham.com/master/images/hushamme.jpg"
 fanart="https://raw.githubusercontent.com/hmemar/husham.com/master/images/hushamme.jpg"

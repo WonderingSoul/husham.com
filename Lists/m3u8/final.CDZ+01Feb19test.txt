@@ -1,6 +1,378 @@
 #EXTM3U
+#EXTINF:0,##########   @Pein8   ##########
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/2536
 #EXTINF:0 tvg-logo="https://pastebin.com/cache/img/11/8/9/3830202.jpg",~CDZ5A6.12-Jun.2019~
 https://c3.prod.playlists.ihrhls.com/4422/playlist.m3u8?
+#EXTINF:0,ANI PLUS HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18637
+#EXTINF:0,ANIMAL PLANET MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18636
+#EXTINF:0,ANIMAX HD KD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18635
+#EXTINF:0,ASIAN FOOD CHANNEL MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18634
+#EXTINF:0,ASTRO AEC HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18633
+#EXTINF:0,ASTRO ARENA HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18632
+#EXTINF:0,ASTRO CERIA MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18630
+#EXTINF:0,ASTRO CRICKET HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18629
+#EXTINF:0,ASTRO OASIS HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18628
+#EXTINF:0,ASTRO PRIMA HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18627
+#EXTINF:0,ASTRO QUAN JIA HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18626
+#EXTINF:0,ASTRO RIA HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18625
+#EXTINF:0,ASTRO SHUANG XING HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18624
+#EXTINF:0,ASTRO SUPERSPORTS 1 FHD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18623
+#EXTINF:0,ASTRO SUPERSPORTS 2 FHD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18622
+#EXTINF:0,ASTRO SUPERSPORTS 3 FHD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18621
+#EXTINF:0,ASTRO SUPERSPORTS 4 FHD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18620
+#EXTINF:0,ASTRO TARA HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18619
+#EXTINF:0,ASTRO VAANAVIL HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18618
+#EXTINF:0,ASTRO VINMEEN HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18617
+#EXTINF:0,ASTRO WARNA HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18616
+#EXTINF:0,ASTRO XI YUE MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18615
+#EXTINF:0,ASTRO XIAO TAI YANG MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18614
+#EXTINF:0,AXN HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18613
+#EXTINF:0,Astro Awani MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/1373
+#EXTINF:0,Astro SuperSport 1 MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/1366
+#EXTINF:0,Astro SuperSport 2 HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/1365
+#EXTINF:0,Astro SuperSport 3 HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/1364
+#EXTINF:0,Astro SuperSport 4 HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/1161
+#EXTINF:0,BABY FIRST MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18612
+#EXTINF:0,BBC EARTH HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18610
+#EXTINF:0,BBC LIFESTYLE MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18609
+#EXTINF:0,BEIN SPORTS MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18608
+#EXTINF:0,BLUE ANT EXTREME MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18607
+#EXTINF:0,BOLLY ONE HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18606
+#EXTINF:0,BOOMERANG HD KD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18605
+#EXTINF:0,CARTOON NETWORK MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18604
+#EXTINF:0,CELESTIAL MOVIES MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18603
+#EXTINF:0,CINEMA WORLD HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18601
+#EXTINF:0,DISCOVERY CHANNEL MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18600
+#EXTINF:0,DISNEY CH MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18599
+#EXTINF:0,DISNEY JR MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18598
+#EXTINF:0,DISNEY XD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18597
+#EXTINF:0,DIVA HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18596
+#EXTINF:0,DUNIA SINEMA MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18595
+#EXTINF:0,ENTERTAINMENT MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18594
+#EXTINF:0,EVERY GOOD GAME HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18593
+#EXTINF:0,FOX FAMILY MOVIES HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18592
+#EXTINF:0,FOX LIFE HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18591
+#EXTINF:0,FOX MOVIES HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18590
+#EXTINF:0,FOX SPORTS 1 MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18589
+#EXTINF:0,FOX SPORTS 2 MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18588
+#EXTINF:0,FOX SPORTS 3 MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18587
+#EXTINF:0,FOX TV HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18586
+#EXTINF:0,FX CINEMA HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18585
+#EXTINF:0,Fox Movies Action HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/1362
+#EXTINF:0,Fox Movies Premium MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/1361
+#EXTINF:0,GNIX SPORTS HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18584
+#EXTINF:0,HGTV MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18583
+#EXTINF:0,HHD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18582
+#EXTINF:0,HITS HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18581
+#EXTINF:0,HYPP SENSASI MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18580
+#EXTINF:0,JAYA MAX APAC Plus MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18548
+#EXTINF:0,KIX MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18575
+#EXTINF:0,MTV ASIA MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18573
+#EXTINF:0,MUTV HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18572
+#EXTINF:0,NAT GEO ASIA HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18571
+#EXTINF:0,NAT GEO PEOPLE HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18570
+#EXTINF:0,NAT GEO WILD HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18569
+#EXTINF:0,NICK JR KD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18568
+#EXTINF:0,NICK KD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18567
+#EXTINF:0,NOW TV CHINESE MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18566
+#EXTINF:0,NTV7 MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/1360
+#EXTINF:0,OHIK MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18565
+#EXTINF:0,PARAMAUNT CHANNEL MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18563
+#EXTINF:0,PESONA HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18562
+#EXTINF:0,RED HBO HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18561
+#EXTINF:0,SETANTA SPORTS HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18560
+#EXTINF:0,SETi CHINESE MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18559
+#EXTINF:0,SONY ONE HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18558
+#EXTINF:0,SONY SAB APAC Plus MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18545
+#EXTINF:0,SONY SETMAX APAC Plus MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18544
+#EXTINF:0,SONY TV APAC Plus MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18543
+#EXTINF:0,STAR CHINESE CHANNEL HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18557
+#EXTINF:0,STAR VIJAY APAC Plus MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18546
+#EXTINF:0,SkyNet Baby TV MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/9131
+#EXTINF:0,SkyNet CGCN Docu MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/9128
+#EXTINF:0,SkyNet Dmax MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/9126
+#EXTINF:0,SkyNet Fox Action Movies HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/9142
+#EXTINF:0,SkyNet Fox Action Movies MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/9143
+#EXTINF:0,SkyNet Golf HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/9123
+#EXTINF:0,SkyNet MTV China MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/9122
+#EXTINF:0,SkyNet Movies HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/9114
+#EXTINF:0,SkyNet Music MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/9121
+#EXTINF:0,SkyNet Phoenix Info News MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/9132
+#EXTINF:0,SkyNet Sports 1 HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/1160
+#EXTINF:0,SkyNet Sports 1 MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/1159
+#EXTINF:0,SkyNet Sports 2 MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/1158
+#EXTINF:0,SkyNet Sports 3 MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/1157
+#EXTINF:0,SkyNet Sports 4 MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/1156
+#EXTINF:0,SkyNet Sports 5 MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/1155
+#EXTINF:0,SkyNet Sports 6 MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/1154
+#EXTINF:0,SkyNet Sports HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/9113
+#EXTINF:0,SkyNet Sports Plus HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/9110
+#EXTINF:0,SkyNet Sports Plus MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/9112
+#EXTINF:0,SkyNet World Drama MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/9137
+#EXTINF:0,SkyNet ZEE TV MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/9135
+#EXTINF:0,SkyNet Zing MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/9117
+#EXTINF:0,Sport DREAM WORKS HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18638
+#EXTINF:0,SportBABY TV KD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18611
+#EXTINF:0,TLC MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18556
+#EXTINF:0,TRAVEL CHANNEL HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18555
+#EXTINF:0,TV ALHIJRA MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18554
+#EXTINF:0,TV1 MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/1359
+#EXTINF:0,TV2 MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/1358
+#EXTINF:0,TV3 MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/1357
+#EXTINF:0,TV8 MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18553
+#EXTINF:0,TV9 MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/1356
+#EXTINF:0,TVN HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18552
+#EXTINF:0,TVN MOVIES MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18551
+#EXTINF:0,WARNER TV HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18550
+#EXTINF:0,WWE NETWORK HD MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18549
+#EXTINF:0,ZEE TAMIL APAC Plus MY
+#EXTVLCOPT:network-caching=1000
+http://portal.geniptv.com:8080/6UXf2khP5l/NeCjW35BdY/18547
 #EXTINF:0 tvg-logo="https://pastebin.com/cache/img/11/8/9/3830202.jpg",Radio Hit Nation
 https://c3.prod.playlists.ihrhls.com/4422/playlist.m3u8?
 #EXTINF:0 tvg-logo="https://pastebin.com/cache/img/11/8/9/3830202.jpg",0 Fav.Arena

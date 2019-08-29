@@ -9,16 +9,16 @@ http://rtm1mobile.secureswiftcontent.com/Origin01/ngrp:RTM1/chunklist_b3696000.m
 https://rtm2mobile.secureswiftcontent.com/Origin01/ngrp:RTM1/chunklist_b3696000.m3u8
 #EXTINF:-1,RTM  SPORTS HD
 http://rtm2mobile.secureswiftcontent.com/Origin02/ngrp:RTM2/chunklist_b3696000.m3u8
-#EXTINF:-1,Tv3
-https://stream-04.sg1.dailymotion.com/sec(_9ERdFwnAbs1GZsc1AwhHZCFoH_ixyL1rWCIkzLmR2s)/dm/3/x6qp375/d/live-3.m3u8
+#EXTINF:-1,Tv3 FHD
+https://stream-04.sg1.dailymotion.com/sec(_9ERdFwnAbs1GZsc1AwhHaWJ8Qn5EMdnrhbyUJH1DVE)/dm/3/x6qp375/d/live-4.m3u8
 #EXTINF:-1,NTV7
-https://stream-03.sg1.dailymotion.com/sec(_9ERdFwnAbs1GZsc1AwhHeBi4mhLPILv_rLKdOnvHEc)/dm/3/x6qp6ou/s/live-3.m3u8
+https://stream-03.sg1.dailymotion.com/sec(_9ERdFwnAbs1GZsc1AwhHSsk-8g5uYK3VAsse37jnow)/dm/3/x6qp6ou/s/live-4.m3u8
 #EXTINF:-1,TV8
-https://stream-01.sg1.dailymotion.com/sec(_9ERdFwnAbs1GZsc1AwhHVRO-q446ES5UsyaZEea36k)/dm/3/x6qud17/s/live-3.m3u8
+https://stream-04.sg1.dailymotion.com/sec(_9ERdFwnAbs1GZsc1AwhHQ-R4yd8f5VSsnkhzHKoDb4)/dm/3/x6qud17/s/live-4.m3u8
 #EXTINF:-1,TV9
-https://stream-04.sg1.dailymotion.com/sec(_9ERdFwnAbs1GZsc1AwhHb3ux3GuBtLNeZImly_C7Ks)/dm/3/x6qqja6/s/live-3.m3u8
+https://stream-03.sg1.dailymotion.com/sec(_9ERdFwnAbs1GZsc1AwhHUhcV86M-P745MXkZL3ITeM)/dm/3/x6qqja6/s/live-4.m3u8
 #EXTINF:-1,Drama Sangat
-https://stream-01.sg1.dailymotion.com/sec(jyCOMoYa2SFWfHvye_Gd0pcl5IHE7qFvr-ZgHiUypIM)/dm/3/x6zvnex/s/live-3.m3u8
+https://stream-01.sg1.dailymotion.com/sec(jyCOMoYa2SFWfHvye_Gd0o2gkYV4a3FPTHTcqQ_3Afo)/dm/3/x6zvnex/s/live-4.m3u8
 #EXTINF:-1,OnebyHD 13
 http://rtmp.one.by:1300
 #EXTINF:-1,OnebyHD 12

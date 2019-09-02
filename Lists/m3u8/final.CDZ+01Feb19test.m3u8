@@ -7,7 +7,6 @@ http://playbackn20.aotg-video.astro.com.my/CH2/master_HELLO_8_05.m3u8
 http://rtm1mobile.secureswiftcontent.com/Origin01/ngrp:RTM1/chunklist_b3696000.m3u8
 #EXTINF:-1,TV2
 https://rtm2mobile.secureswiftcontent.com/Origin01/ngrp:RTM1/chunklist_b3696000.m3u8
-
 #EXTINF:-1,Tv3 FHD
 https://stream-04.sg1.dailymotion.com/sec(_9ERdFwnAbs1GZsc1AwhHaWJ8Qn5EMdnrhbyUJH1DVE)/dm/3/x6qp375/d/live-4.m3u8
 #EXTINF:-1,RTM  SPORTS HD
@@ -20,7 +19,6 @@ https://stream-03.sg1.dailymotion.com/sec(_9ERdFwnAbs1GZsc1AwhHSsk-8g5uYK3VAsse3
 https://stream-04.sg1.dailymotion.com/sec(_9ERdFwnAbs1GZsc1AwhHQ-R4yd8f5VSsnkhzHKoDb4)/dm/3/x6qud17/s/live-4.m3u8
 #EXTINF:-1,TV9
 https://stream-03.sg1.dailymotion.com/sec(_9ERdFwnAbs1GZsc1AwhHUhcV86M-P745MXkZL3ITeM)/dm/3/x6qqja6/s/live-4.m3u8
-
 #EXTINF:-1, Free Movie 1
 http://aldirect.hls.huya.com/huyalive/28466698-2689656864-11551988268341919744-2847699194-10057-A-0-1_1200.m3u8
 #EXTINF:-1, Free Movie 2

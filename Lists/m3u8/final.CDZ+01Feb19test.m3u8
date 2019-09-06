@@ -93,5 +93,5 @@ http://103.47.132.164/PLTV/88888888/224/3221226011/index.m3u8
 http://103.47.132.164/PLTV/88888888/224/3221226011/04.m3u8
 #EXTINF:0,Disney Junior
 http://103.47.132.164/PLTV/88888888/224/3221226011/03.m3u8
-#EXTINF:0,Astr0 Ria
-https://www.dropbox.com/s/42ixej4vklil2pq/Ria.m3u8?dl=0
+#EXTINF:0,Nat Geo NoSub
+http://livecdnh1.tvanywhere.ae/hls/nat_geo/05.m3u8

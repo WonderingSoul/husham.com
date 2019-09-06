@@ -29,6 +29,8 @@ https://stream-01.sg1.dailymotion.com/sec(_9ERdFwnAbs1GZsc1AwhHdLsGMkmefmw73Yu7a
 https://stream-03.sg1.dailymotion.com/sec(_9ERdFwnAbs1GZsc1AwhHUhcV86M-P745MXkZL3ITeM)/dm/3/x6qqja6/s/live-4.m3u8
 #EXTINF:0,Astro Awani MY
 https://bcsecurelivehls-i.akamaihd.net/hls/live/722763/4508222217001/stream04/streamPlaylist.m3u8
+#EXTINF:0,CNetwork
+https://hls.ustreamix.com/Cartoon-Network.m3u8?token=b6c-658-8f3-41a-e7d-802-6fe-e60-04c-e1f-de6-01f-430-f8c-9d1-6e2-5a2-205-b07-ad9-f06-9&region=asia2&cdn=c968411d86f239e9e0aff4f3448965bf
 #EXTINF:0,Paw Patrol & Friends
 https://dl.dropbox.com/s/c8bhv2ammbz4z0z/paw.m3u8?dl=0
 #EXTINF:-1 tvg-ID="" tvg-name="Okey" tvg-logo="http://donrusy.online/ICON2/okey.png" group-title="Malaysia",Okey
@@ -95,3 +97,5 @@ http://103.47.132.164/PLTV/88888888/224/3221226011/04.m3u8
 http://103.47.132.164/PLTV/88888888/224/3221226011/03.m3u8
 #EXTINF:0,Nat Geo NoSub
 http://livecdnh1.tvanywhere.ae/hls/nat_geo/05.m3u8
+#EXTINF:0,ANTV
+https://edgejt7.useetv.com/joss/15/antv/chunklist_w337531130_b894100_sleng.m3u8

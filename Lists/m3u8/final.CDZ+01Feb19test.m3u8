@@ -98,14 +98,10 @@ http://livecdnh1.tvanywhere.ae/hls/nat_geo/05.m3u8
 #EXTINF:0,ANTV
 https://edgejt7.useetv.com/joss/15/antv/chunklist_w337531130_b894100_sleng.m3u8
 #EXTINF:0,1.The Avengers (2012) MULTi-VF2 [1080p] BluRay x264
-#EXTVLCOPT:network-caching=1000
 https://www.dropbox.com/s/cf6ygn3dgacbsne/1.TheAvengers.m3u8?dl=0
 #EXTINF:0,2.AvengersAgeOfUltron2015
-#EXTVLCOPT:network-caching=2000
 https://www.dropbox.com/s/c6ep70mkl14q6s3/2.AgeOfUltron.m3u8?dl=0
 #EXTINF:0,3.AvengersInfinityWar2018
-#EXTVLCOPT:network-caching=1000
 https://www.dropbox.com/s/4mv2y4u7b4bdv0r/3.InfinityWar.m3u8?dl=0
 #EXTINF:0,4.AvengersEndgame2019
-#EXTVLCOPT:network-caching=3000
 https://www.dropbox.com/s/i4l4aopow0log3t/4.Endgame.m3u8?dl=0

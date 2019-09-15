@@ -31,24 +31,18 @@ http://aldirect.hls.huya.com/huyalive/28466698-2689656864-11551988268341919744-2
 http://aldirect.hls.huya.com/huyalive/29106097-2689453724-11551115788685410304-2847687506-10057-A-1525422901-1_1200.m3u8
 #EXTINF:-1 tvg-logo="https://pastebin.com/cache/img/22/16/14/3625502.jpg" group-title="Malaysia",Huya ENSub 
 http://js.hls.huya.com/huyalive/30765679-2478268764-10644083292078342144-2847699106-10057-A-0-1_1200.m3u8
-#EXTINF:-1 tvg-logo="https://pastebin.com/cache/img/22/16/14/3625502.jpg" group-title="Malaysia",Huya 2 ENSub
+#EXTINF:0,Huya 1 NoSub
+http://aldirect.hls.huya.com/huyalive/29106097-2689279104-11550365801496182784-2777026902-10057-A-0-1_1200.m3u8
+#EXTINF:-1 tvg-logo="https://pastebin.com/cache/img/22/16/14/3625502.jpg" group-title="CN",Huya 2 ENSub
 http://aldirect.hls.huya.com/huyalive/29169025-2686219962-11537226886652362752-2710080226-10057-A-0-1_1200.m3u8
-#EXTINF:-1 tvg-logo="https://pastebin.com/cache/img/22/16/14/3625502.jpg" group-title="Malaysia",Huya 6 ENSub
+#EXTINF:-1 tvg-logo="https://pastebin.com/cache/img/22/16/14/3625502.jpg" group-title="CN",Huya 6 ENSub
 http://aldirect.hls.huya.com/huyalive/30765679-2504742278-10757786168918540288-3049003128-10057-A-0-1_1200.m3u8
-#EXTINF:-1 tvg-logo="https://pastebin.com/cache/img/22/16/14/3625502.jpg" group-title="Malaysia",Huya 7 ENSub
+#EXTINF:-1 tvg-logo="https://pastebin.com/cache/img/22/16/14/3625502.jpg" group-title="CN",Huya 7 ENSub
 http://aldirect.hls.huya.com/huyalive/28466698-2689656864-11551988268341919744-2847699194-10057-A-0-1_1200.m3u8
-#EXTINF:-1 tvg-logo="https://pastebin.com/cache/img/22/16/14/3625502.jpg" group-title="Malaysia",Huya 8 ENSub
+#EXTINF:-1 tvg-logo="https://pastebin.com/cache/img/22/16/14/3625502.jpg" group-title="CN",Huya 8 ENSub
 http://aldirect.hls.huya.com/huyalive/30765679-2484192572-10669525853706125312-2847687498-10057-A-0-1_1200.m3u8
-#EXTINF:-1 tvg-logo="https://pastebin.com/cache/img/22/16/14/3625502.jpg" group-title="Malaysia",Huya 4 Friends
+#EXTINF:-1 tvg-logo="https://pastebin.com/cache/img/22/16/14/3625502.jpg" group-title="CN",Huya 4 Friends
 http://aldirect.hls.huya.com/huyalive/29169025-2686220018-11537227127170531328-2847699120-10057-A-1524041208-1_1200.m3u8
-#EXTINF:0,UC Prime
-https://cdnmdc1.useetv.com/joss/15/useeprime/chunklist_w1576546632_b894100_sleng.m3u8
-#EXTINF:0,DuckTv Kids
-https://cdnjt21.useetv.com/joss/14/ducktv/chunklist_w1202338403_b684100_sleng.m3u8
-#EXTINF:0,UC Edu
-https://edgejt7.useetv.com/joss/14/tvedukasi/chunklist_w2080654551_b684100_sleng.m3u8
-#EXTINF:0,T Music
-https://cdnbpp1.useetv.com/joss/14/tmusic/chunklist_w1143052373_b684100_sleng.m3u8
 #EXTINF:-1 tvg-logo="http://www.one.by/images/logo.png" group-title="Rusia",OnebyHD 13
 http://rtmp.one.by:1300
 #EXTINF:-1 tvg-logo="http://www.one.by/images/logo.png" group-title="Rusia",OnebyHD 12

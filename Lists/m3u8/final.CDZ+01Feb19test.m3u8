@@ -43,6 +43,12 @@ http://aldirect.hls.huya.com/huyalive/28466698-2689656864-11551988268341919744-2
 http://aldirect.hls.huya.com/huyalive/30765679-2484192572-10669525853706125312-2847687498-10057-A-0-1_1200.m3u8
 #EXTINF:-1 tvg-logo="https://pastebin.com/cache/img/22/16/14/3625502.jpg" group-title="CN",Huya 4 Friends
 http://aldirect.hls.huya.com/huyalive/29169025-2686220018-11537227127170531328-2847699120-10057-A-1524041208-1_1200.m3u8
+#EXTINF:-1, group-title="KIDS",Larva
+https://dl.dropbox.com/s/pp78vvb789r4s18/larva.m3u8?dl=0
+#EXTINF:-1, group-title="KIDS",Thomas & Friends
+https://dl.dropbox.com/s/4mqo8g8koh3bzwp/thomas.m3u8?dl=0
+#EXTINF:-1,group-title="Info"tvg-logo=""Foodie Channel
+http://edge.linknetott.swiftserve.com/live/BSgroup/amlst:foodiee/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://www.one.by/images/logo.png" group-title="Rusia",OnebyHD 13
 http://rtmp.one.by:1300
 #EXTINF:-1 tvg-logo="http://www.one.by/images/logo.png" group-title="Rusia",OnebyHD 12
@@ -83,3 +89,15 @@ http://103.47.132.164/PLTV/88888888/224/3221226011/03.m3u8
 http://livecdnh1.tvanywhere.ae/hls/nat_geo/05.m3u8
 #EXTINF:0,SkySoccer
 https://ul.cdn946.net:8443/hls/a5z9i.m3u8?s=krDTvE4trrcSufhiNqV3eg&e=1568569185
+#EXTINF:0 tvg-logo="https://pastebin.com/cache/img/11/8/9/3830202.jpg",0 Fav.NET HD
+http://boosstalive1-a.akamaihd.net/f894a6ebf56c4569bea516042afd1d55/ap-southeast-1/5664852414001/profile_0/chunklist.m3u8
+#EXTINF:0 tvg-logo="https://pastebin.com/cache/img/11/8/9/3830202.jpg",0 Fav.JGO
+http://edge.linknetott.swiftserve.com/live/BSgroup/amlst:jgoch/chunklist_b2288000.m3u8
+#EXTINF:0 tvg-logo="https://www.tvikim.my/images/logo-header.png",0 TV IKIM
+https://edge-sg1.vediostream.com/abr/tvikim/live/tvikim_source/chunks.m3u8?nimblesessionid=23594998
+#EXTINF:-1, group-title="MOVIE",Suria Mediacorp
+https://d11h6a6nhl9kj9.cloudfront.net/hls/suriactv/master02.m3u8
+#EXTINF:-1,group-title="SPORT"REAL MADRID TV
+https://rmtv24hweblive-lh.akamaihd.net/i/rmtv24hweben_1@300662/index_3_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1,group-title="SPORT"REDBULL TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8

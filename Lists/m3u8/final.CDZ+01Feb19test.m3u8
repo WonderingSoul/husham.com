@@ -19,6 +19,8 @@ https://stream-03.sg1.dailymotion.com/sec(_9ERdFwnAbs1GZsc1AwhHebPeYKNtbQOvU578V
 https://stream-01.sg1.dailymotion.com/sec(_9ERdFwnAbs1GZsc1AwhHQmtDeZqYlu6hHwRqVrNGNk)/dm/3/x6qud17/s/live-4.m3u8
 #EXTINF:-1 tvg-ID="" tvg-name="TV9" tvg-logo="https://www.xtra.com.my/img/logo/tv9.png" group-title="Malaysia",TV9
 https://stream-01.sg1.dailymotion.com/sec(_9ERdFwnAbs1GZsc1AwhHZE46XvW5xWVCObQrhplZpM)/dm/3/x6qqja6/s/live-4.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/wMLnDen.jpg?1" group-title="6-Entertainment",Sony One [MY]
+http://50.7.161.82:8278/SetOne/playlist.m3u8?tid=m02000000000014244954&ct=17982&tsum=2a160ea054855b501a39a31ef6e18cb8
 #EXTINF:-1 tvg-logo="https://pastebin.com/cache/img/22/16/14/3625502.jpg" group-title="Malaysia",Astro Awani MY
 https://bcsecurelivehls-i.akamaihd.net/hls/live/722763/4508222217001/stream04/streamPlaylist.m3u8
 #EXTINF:-1 tvg-logo="https://pastebin.com/cache/img/22/16/14/3625502.jpg" group-title="Malaysia",Paw Patrol & Friends
@@ -101,3 +103,9 @@ https://d11h6a6nhl9kj9.cloudfront.net/hls/suriactv/master02.m3u8
 https://rmtv24hweblive-lh.akamaihd.net/i/rmtv24hweben_1@300662/index_3_av-b.m3u8?sd=10&rebase=on
 #EXTINF:-1,group-title="SPORT"REDBULL TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
+#EXTINF:-1 tvg-id="AstroCeria.my" tvg-id="" tvg-logo="https://i.imgur.com/yD18nI4.png" group-title="14-Astro Malaysia",Astro Ceria
+http://50.7.161.82:8278/Ceria/playlist.m3u8?tid=m02000000000014624840&ct=17950&tsum=1d6ed7be64dc2703ae688a369df440f9
+#EXTINF:-1 tvg-id="AstroWarna.my" tvg-logo="https://i.imgur.com/Zgtjvfz.png" group-title="14-Astro Malaysia",Astro Warna
+http://185.132.176.172:8278/Warna/playlist.m3u8?tid=m8ada85ec4b0014888920&ct=17858&tsum=0dc08d3177880cc647290933111b7bf1
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/peUpx6m.jpg?1" group-title="14-Astro Malaysia",Cartoon Network [MY]
+http://210.186.80.171:9000/6.ts

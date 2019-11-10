@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:0,~CZ5A6.29-Oct.2019~
-https://c3.prod.playlists.ihrhls.com/4422/playlist.m3u8
+#EXTINF:0,~CZ56.29-Oct.2019~
+http://69.16.139.235/NEW/nubilefilms.19.05.15.daisy.stone.and.vina.sky.you.want.me.too.mp4
 #EXTINF:540,Just Porno - VOD 002
 http://cdn.justporno.sex/video_hd/0/3781.mp4
 #EXTINF:0,Just Porno - VOD 003
@@ -106,9 +106,9 @@ http://212.12.194.10/hustler/live.m3u8
 #EXTINF:0,Jasmin HD
 http://109.71.162.112:1935/live/hd.jasminchannel.stream/playlist.m3u8
 #EXTINF:0,Miami TV
-http://59ec5453559f0.streamlock.net:1935/miamitv/smil:miamitvROKU/chunklist_b2592000.m3u8
+http://69.16.139.235/PH_dl/Crazy%20after%20party%20sextape%20with%20lots%20of%20squirt!%20Amateur%20LeoLulu-ph5d56c3ffcb815.mp4
 #EXTINF:0,Nuart TV (2)
-http://tvport.it-tele.net:8000/f6c3f3b4a6fc08c50fa7881628aaad42
+http://69.16.139.235/20191007/swallowsalon.17.08.18.aubrey.sinclair.mp4
 #EXTINF:0,O-la-la (1)
 http://185.162.124.197/CH979_std/tracks-v1a1/index.m3u8
 #EXTINF:0,Penthouse Gold HD

@@ -8,12 +8,12 @@ https://rtm2mobile.secureswiftcontent.com/Origin01/ngrp:RTM1/chunklist_b3696000.
 #EXTINF:-1 tvg-name="TV3" tvg-logo="https://www.xtra.com.my/img/logo/tv3.png" group-title="Malaysia",TV.3
 #EXTINF:-1,US: DISNEY XD WEST
 http://beastiptv.tv:25461/live/WHMCSMAG:WHMCS:26599/Nnu8o17OPJ/1476.m3u8
-#EXTINF:-1 tvg-name="Drama Sangat" tvg-logo="https://www.xtra.com.my/img/logo/dramasangat2.png" group-title="Malaysia",Drama Sangat
-
+#EXTINF:-1 tvg-name="Hunter Killer 4k 2018" tvg-logo="https://www.xtra.com.my/img/logo/dramasangat2.png" group-title="Malaysia",Drama Sangat
+http://94.130.146.43/Download/4k/Hunter.Killer.2018.4K.HDR.2160p.BDRip%20Ita%20Eng%20x265-NAHOM.mkv
 #EXTINF:-1 tvg-logo="https://pastebin.com/cache/img/22/16/14/3625502.jpg" group-title="Malaysia",Astro Awani MY
 https://bcsecurelivehls-i.akamaihd.net/hls/live/722763/4508222217001/stream04/streamPlaylist.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="NTV7" tvg-logo="https://www.xtra.com.my/img/logo/ntv7.png" group-title="Malaysia",NTV7
-
+#EXTINF:-1 tvg-ID="" tvg-name="Ironman 2008 4k" tvg-logo="https://www.xtra.com.my/img/logo/ntv7.png" group-title="Malaysia",NTV7
+http://94.130.146.43/Download/4k/Iron.Man.2008.4K.HDR.2160p.BDRip%20Ita%20Eng%20x265-NAHOM.mkv
 #EXTINF:-1 tvg-ID="" tvg-name="8TV" tvg-logo="https://www.xtra.com.my/img/logo/8tv.png" group-title="Malaysia",8TV
 
 #EXTINF:-1 tvg-ID="" tvg-name="TV9" tvg-logo="https://www.xtra.com.my/img/logo/tv9.png" group-title="Malaysia",TV9

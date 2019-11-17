@@ -5,12 +5,40 @@ https://c3.prod.playlists.ihrhls.com/4422/playlist.m3u8
 http://rtm1mobile.secureswiftcontent.com/Origin01/ngrp:RTM1/chunklist_b3696000.m3u8
 #EXTINF:-1 tvg-logo="https://s3-ap-southeast-1.amazonaws.com/smartware-cms-prod/image/tvTV2logo.png" group-title="Malaysia",TV2
 https://rtm2mobile.secureswiftcontent.com/Origin01/ngrp:RTM1/chunklist_b3696000.m3u8
+#EXTINF:-1 ,Duck TV (MENA)
+http://livecdnh3.tvanywhere.ae/hls/duck/04.m3u8
+#EXTINF:-1 ,EBS Kids
+http://ebsonair.ebs.co.kr:1935/ebsutablet500k/tablet500k/playlist.m3u8
 #EXTINF:-1,Nick
 https://stitcher.pluto.tv/stitch/hls/channel/5ca673e0d0bd6c2689c94ce3/master.m3u8?deviceType=&deviceMake=&deviceVersion=&deviceId=&appVersion=&deviceDNT=0&deviceModel=&embedPartner=pluto.tv&sid=bcuqage0urlhccbp8kbecjc830
 #EXTINF:-1,Suria Mediacorp
 https://d11h6a6nhl9kj9.cloudfront.net/hls/suriactv/master02.m3u8
 #EXTINF:-1,Nick Jr.
 https://stitcher.pluto.tv/stitch/hls/channel/5ca6748a37b88b269472dad9/master.m3u8?deviceType=&deviceMake=&deviceVersion=&deviceId=&appVersion=&deviceDNT=0&deviceModel=&embedPartner=pluto.tv&sid=ccuqage0urlhccbp8kbecjc830
+#EXTINF:-1 ,RTE Jr.
+https://cdn.rasset.ie/hls-live/_definst_/rtejr/rtejr-576.m3u8
+#EXTINF:-1 ,Kids
+https://stitcher.pluto.tv/stitch/hls/channel/5ad8d54be738977e2c310940/master.m3u8?deviceType=&deviceMake=&deviceVersion=&deviceId=&appVersion=&deviceDNT=0&deviceModel=&embedPartner=pluto.tv&sid=j7go93gc2nj2bijagutmn2d3v6
+#EXTINF:-1 ,Kids Learning
+https://stitcher.pluto.tv/stitch/hls/channel/5c5c2e228002db3c3e0b1c6f/master.m3u8?deviceType=&deviceMake=&deviceVersion=&deviceId=&appVersion=&deviceDNT=0&deviceModel=&embedPartner=pluto.tv&sid=c45b9ea1nuf9ijm985tiag4ge6
+#EXTINF:-1 ,EBS-E
+http://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 ,EBS-2
+http://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 ,EBS-1
+http://ebsonair.ebs.co.kr/groundwavefamilypc/familypc1m/playlist.m3u8
+#EXTINF:-1 ,CARTOON NETWORK
+http://161.0.157.9/PLTV/88888888/224/3221226843/03.m3u8
+#EXTINF:-1 ,EBS 1
+http://ebsonair.ebs.co.kr:1935/groundwavefamilypc/familypc1m/chunklist_w1081857294.m3u8?time=1454375113788
+#EXTINF:-1 ,EBS 2
+http://ebsonair.ebs.co.kr:1935/ebs2familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 ,EBS English
+http://ebsonair.ebs.co.kr:1935/plus3familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 ,EBS Plus 1
+http://ebsonair.ebs.co.kr:1935/plus1tablet500k/tablet500k/playlist.m3u8
+#EXTINF:-1 ,EBS Plus 2
+http://ebsonair.ebs.co.kr:1935/plus2tablet500k/tablet500k/playlist.m3u8
 #EXTINF:-1,Paramount Movie Channel
 https://stitcher.pluto.tv/stitch/hls/channel/5cb0cae7a461406ffe3f5213/master.m3u8?deviceType=&deviceMake=&deviceVersion=&deviceId=&appVersion=&deviceDNT=0&deviceModel=&embedPartner=pluto.tv&sid=pcuqage0urlhccbp8kbecjc830
 #EXTINF:-1 ,Star Movies (HD)
@@ -121,14 +149,6 @@ http://161.0.157.5/PLTV/88888888/224/3221227026/03.m3u8
 http://cbs-live.gscdn.com/cbs-live/cbs-live.stream/hasbahca.m3u8
 #EXTINF:-1 ,TV CHOSUN
 http://live.chosun.gscdn.com/live/tvchosun1.stream/playlist.m3u8
-#EXTINF:-1 ,EBS-E
-http://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
-#EXTINF:-1 ,EBS-2
-http://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8
-#EXTINF:-1 ,EBS-1
-http://ebsonair.ebs.co.kr/groundwavefamilypc/familypc1m/playlist.m3u8
-#EXTINF:-1 ,CARTOON NETWORK
-http://161.0.157.9/PLTV/88888888/224/3221226843/03.m3u8
 #EXTINF:-1 ,CCTV3HD
 http://223.110.242.130:6610/gitv/live1/G_CCTV-3-HQ/1.m3u8
 #EXTINF:-1 ,CCTV4HD
@@ -279,8 +299,6 @@ https://vcndstv.teleosmedia.com/stream/dstv/dstv/seglist_720p.m3u8
 http://30a-tv.com/darcizzle.m3u8
 #EXTINF:-1 ,Docurama
 https://cinedigm.vo.llnwd.net/conssui/amagi_hls_data_xumo1234A-docuramaA/CDN/master.m3u8
-#EXTINF:-1 ,Duck TV (MENA)
-http://livecdnh3.tvanywhere.ae/hls/duck/04.m3u8
 #EXTINF:-1 ,Edge Sport
 https://imgedge.akamaized.net/amagi_hls_data_imgAAA2AA-edgesports/CDN/1920x1080_5628000/index.m3u8?fluxustv.m3u8
 #EXTINF:-1 ,Evine
@@ -467,8 +485,6 @@ http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/05.m3u8
 https://vcndstv.teleosmedia.com/stream/dstv/sunburn/seglist_720p.m3u8
 #EXTINF:-1 ,VH1
 http://85.244.70.140:7000/play/a012
-#EXTINF:-1 ,RTE Jr.
-https://cdn.rasset.ie/hls-live/_definst_/rtejr/rtejr-576.m3u8
 #EXTINF:-1 ,TG4
 http://csm-e.cds1.yospace.com/csm/live/74246610.m3u8
 #EXTINF:-1 ,3AW 693 AM Melbourne
@@ -3555,18 +3571,6 @@ http://stream1.shopch.jp/HLS/out1/prog_index.m3u8
 http://movie.mcas.jp/mcas/smil:wn1.smil/chunklist_b1800000.m3u8
 #EXTINF:-1 ,Wowow Cinefil
 http://192.240.127.34:1935/live/cs27.stream/playlist.m3u8?wowzasessionid=1300220279
-#EXTINF:-1 ,EBS 1
-http://ebsonair.ebs.co.kr:1935/groundwavefamilypc/familypc1m/chunklist_w1081857294.m3u8?time=1454375113788
-#EXTINF:-1 ,EBS 2
-http://ebsonair.ebs.co.kr:1935/ebs2familypc/familypc1m/playlist.m3u8
-#EXTINF:-1 ,EBS English
-http://ebsonair.ebs.co.kr:1935/plus3familypc/familypc1m/playlist.m3u8
-#EXTINF:-1 ,EBS Kids
-http://ebsonair.ebs.co.kr:1935/ebsutablet500k/tablet500k/playlist.m3u8
-#EXTINF:-1 ,EBS Plus 1
-http://ebsonair.ebs.co.kr:1935/plus1tablet500k/tablet500k/playlist.m3u8
-#EXTINF:-1 ,EBS Plus 2
-http://ebsonair.ebs.co.kr:1935/plus2tablet500k/tablet500k/playlist.m3u8
 #EXTINF:-1 ,ETN
 http://wkntv.vo.llnwd.net/e10/a_live/51307026/mp4:ch044900/playlist.m3u8
 #EXTINF:-1 ,G1
@@ -3945,10 +3949,6 @@ https://stitcher.pluto.tv/stitch/hls/channel/5c86b772e7f96a5a929736c0/master.m3u
 https://stitcher.pluto.tv/stitch/hls/channel/5a4d35dfa5c02e717a234f86/master.m3u8?deviceType=&deviceMake=&deviceVersion=&deviceId=&appVersion=&deviceDNT=0&deviceModel=&embedPartner=pluto.tv&sid=s1i2kmn8epo99i02q1oji559k6
 #EXTINF:-1 ,Hunter
 https://stitcher.pluto.tv/stitch/hls/channel/5c99f5810c95814ff92512f9/master.m3u8?deviceType=&deviceMake=&deviceVersion=&deviceId=&appVersion=&deviceDNT=0&deviceModel=&embedPartner=pluto.tv&sid=b63a4iic6a2islfekugkgdsul4
-#EXTINF:-1 ,Kids
-https://stitcher.pluto.tv/stitch/hls/channel/5ad8d54be738977e2c310940/master.m3u8?deviceType=&deviceMake=&deviceVersion=&deviceId=&appVersion=&deviceDNT=0&deviceModel=&embedPartner=pluto.tv&sid=j7go93gc2nj2bijagutmn2d3v6
-#EXTINF:-1 ,Kids Learning
-https://stitcher.pluto.tv/stitch/hls/channel/5c5c2e228002db3c3e0b1c6f/master.m3u8?deviceType=&deviceMake=&deviceVersion=&deviceId=&appVersion=&deviceDNT=0&deviceModel=&embedPartner=pluto.tv&sid=c45b9ea1nuf9ijm985tiag4ge6
 #EXTINF:-1 ,Live Music Replay
 http://stitcher.pluto.tv/stitch/hls/channel/5873fc21cad696fb37aa9054/master.m3u8?sid=web24157571521&deviceType=web&deviceMake=web&deviceVersion=1&deviceId=web24163643069&appVersion=5.2.7&deviceDNT=web&deviceModel=web
 #EXTINF:-1 ,Logo
@@ -4391,12 +4391,6 @@ http://tv.portalfoxmix.club:1935/portalfoxmix/portalfoxmix/playlist.m3u8?www.tec
 http://live-edge01.telecentro.net.ar/live/smil:tlx.smil/master.m3u8?
 #EXTINF:-1 ,CDZ10Jun19_382
 http://live.canaloncelive.tv:1935/livepkgr2/smil:internacional.smil/master.m3u8
-#EXTINF:-1 ,CDZ10Jun19_749
-https://yt3.ggpht.com/-RigzES2ZCHs/AAAAAAAAAAI/AAAAAAAAAAA/7Sj9DbFYW3U/s176-c-k-no-mo-rj-
-#EXTINF:-1 ,CDZ10Jun19_748
-https://yt3.ggpht.com/-oWwq4sz7xi8/AAAAAAAAAAI/AAAAAAAAAAA/EVeSO1aMco8/s900-c-k-no-mo-rj-
-#EXTINF:-1 ,CDZ10Jun19_747
-https://yt3.ggpht.com/-D1Z6emsTKE0/AAAAAAAAAAI/AAAAAAAAAAA/46wxJGxiRkc/s176-c-k-no-mo-rj-
 #EXTINF:-1 ,CDZ10Jun19_432
 http://mdstrm.com/live-stream-playlist/57bf686a61ff39e1085d43e1.m3u8
 #EXTINF:-1 ,CDZ10Jun19_34

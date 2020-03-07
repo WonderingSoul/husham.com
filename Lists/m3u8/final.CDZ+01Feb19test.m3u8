@@ -10,7 +10,7 @@ http://livecdnh3.tvanywhere.ae/hls/duck/04.m3u8
 #EXTINF:-1 ,EBS Kids
 http://ebsonair.ebs.co.kr:1935/ebsutablet500k/tablet500k/playlist.m3u8
 #EXTINF:-1,Nick
-https://stitcher.pluto.tv/stitch/hls/channel/5ca673e0d0bd6c2689c94ce3/master.m3u8?deviceType=&deviceMake=&deviceVersion=&deviceId=&appVersion=&deviceDNT=0&deviceModel=&embedPartner=pluto.tv&sid=bcuqage0urlhccbp8kbecjc830
+http://103.47.132.164/PLTV/88888888/224/3221226011/04.m3u8
 #EXTINF:-1,Suria Mediacorp
 https://d11h6a6nhl9kj9.cloudfront.net/hls/suriactv/master02.m3u8
 #EXTINF:-1,Nick Jr.

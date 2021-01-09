@@ -31,3 +31,103 @@ http://stream.1music.hu/stream/1music.m3u8
 https://dl.dropbox.com/s/nvca4s7ylykb2cm/jtbc.m3u8?dl=0
 #EXTINF:-1 ,VOICE OF AMERICA
 http://voa-lh.akamaihd.net/i/voa_mpls_tvmc6@320298/master.m3u8
+#EXTINF:-1 ,iptvtools_1
+http://186.155.200.118:1935/live/telemusica_web/chunklist_w1469736820.m3u8
+#EXTINF:-1 ,iptvtools_2
+http://161.0.157.51/PLTV/88888888/224/3221227040/03.m3u8
+#EXTINF:-1 ,iptvtools_3
+http://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8
+#EXTINF:-1 ,iptvtools_4
+http://cm.hostlagarto.com:8081/ESTV/estv.myStream/playlist.m3u8?fluxustv.m3u8
+#EXTINF:-1 ,iptvtools_5
+http://cdn.elsalvadordigital.com:1935/wowtv/wowtv/playlist.m3u8
+#EXTINF:-1 ,iptvtools_6
+http://170.178.189.66:1935/live/Stream1/playlist.m3u8
+#EXTINF:-1 ,iptvtools_7
+https://liveproduseast.global.ssl.fastly.net/btv/desktop/us_live.m3u8
+#EXTINF:-1 ,iptvtools_11
+http://media4.tripsmarter.com:1935/LiveTV/MTVHD/playlist.m3u8
+#EXTINF:-1 ,iptvtools_12
+http://186.155.200.118:1935/live/MelodyChannel/playlist.m3u8
+#EXTINF:-1 ,iptvtools_13
+http://rtvev4-live.hss.adaptive.level3.net/egress/ahandler/rtvegl0/irtve01_lv3_aosv4_gl0/irtve01_lv3_aosv4_gl0.isml/irtve01_lv3_aosv4_gl0-audio=128000-video=400000.m3u8
+#EXTINF:-1 ,iptvtools_15
+http://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/index_600_av-b.m3u8?sd=10&amp;rebase=on
+#EXTINF:-1 ,iptvtools_16
+http://31.13.223.104:1935/travel/community.stream/chunklist_w511463959.m3u8
+#EXTINF:-1 ,iptvtools_20
+http://live.canaloncelive.tv:1935/livepkgr2/smil:internacional.smil/chunklist_w1339977921_b1300000_slesp.m3u8
+#EXTINF:-1 ,iptvtools_21
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
+#EXTINF:-1 ,iptvtools_22
+http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/index_1000_av-p.m3u8
+#EXTINF:-1 ,iptvtools_24
+http://186.0.233.76:1935/Garage/garage.smil/chunklist_w846352619_b446000_sleng.m3u8
+#EXTINF:-1 ,iptvtools_27
+http://www.elahmad.com/tv/m3u8/adtv.m3u8?id=abudhabi_sports1
+#EXTINF:-1 ,iptvtools_32
+http://190.103.183.24:1935/live/MicroHD/chunklist_w1468779956.m3u8
+#EXTINF:-1 ,iptvtools_34
+http://uni01rtmp.tulix.tv/playout2multi9/lavozdemaria.stream/chunklist_w477912263.m3u8
+#EXTINF:-1 ,iptvtools_44
+http://185.29.68.24/tvb.m3u8
+#EXTINF:-1 ,iptvtools_47
+http://america-crtvg.flumotion.com/playlist.m3u8
+#EXTINF:-1 ,iptvtools_48
+http://europa-crtvg.flumotion.com/playlist.m3u8
+#EXTINF:-1 ,iptvtools_53
+http://live-edge01.telecentro.net.ar/live/smil:tlx.smil/chunklist_w1527043435_b1828000_sleng.m3u8?
+#EXTINF:-1 ,iptvtools_54
+http://stream.mediawork.cz/retrotv/retrotvHQ1/chunklist_w627639048.m3u8?
+#EXTINF:-1 ,iptvtools_55
+http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
+#EXTINF:-1 ,iptvtools_56
+http://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/index_600_av-b.m3u8?
+#EXTINF:-1 ,iptvtools_57
+http://cdn.elsalvadordigital.com:1935/wowtv/wowtv/playlist.m3u8?
+#EXTINF:-1 ,iptvtools_61
+http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8
+#EXTINF:-1 ,iptvtools_63
+http://video.telesafor.com/hls/video_high.m3u8
+#EXTINF:-1 ,iptvtools_64
+http://rtvmurcia_01-lh.akamaihd.net/i/rtvmurcia_1_0@507973/index_0_av-p.m3u8
+#EXTINF:-1 ,iptvtools_65
+http://congresodirecto-f.akamaihd.net/i/congreso6_1@54665/master.m3u8
+#EXTINF:-1 ,iptvtools_66
+http://217.182.77.27/live/alcarriatv-livestream.m3u8
+#EXTINF:-1 ,iptvtools_67
+http://iptvcolombia.ddns.net/hls-live/livepkgr/_definst_/liveevent/lasupertv.m3u8
+#EXTINF:-1 ,iptvtools_69
+http://live-edge01.telecentro.net.ar/live/msctphd-720/playlist.m3u8
+#EXTINF:-1 ,iptvtools_72
+http://149.56.17.92:1935/portalfoxmix/_definst_/portalfoxmix/playlist.m3u8
+#EXTINF:-1 ,iptvtools_73
+http://stream.mediawork.cz/retrotv//retrotvHQ1/playlist.m3u8
+#EXTINF:-1 ,iptvtools_85
+http://congresodirecto-f.akamaihd.net:80/i/congreso6_1@54665/master.m3u8
+#EXTINF:-1 ,iptvtools_87
+http://etbvnogeo-lh.akamaihd.net/i/ETBEITBEUS_1@300391/index_0564_av-p.m3u8
+#EXTINF:-1 ,iptvtools_88
+http://livees.cgtn.com/1000e/prog_index.m3u8
+#EXTINF:-1 ,iptvtools_89
+http://rtvmurcia_01-lh.akamaihd.net/i/rtvmurcia_1_0@507973/master.m3u8
+#EXTINF:-1 ,iptvtools_91
+http://212.104.160.156:1935/live/lebrijatv2/playlist3.m3u8
+#EXTINF:-1 ,iptvtools_94
+http://62.210.141.18:1935/directo/lancelot.television/live.m3u8
+#EXTINF:-1 ,iptvtools_364
+http://k3.usastreams.com:1935/HBTV/HBTV/playlist.m3u8?ixtlaarreola.m3u8
+#EXTINF:-1 ,iptvtools_370
+http://live-edge01.telecentro.net.ar/live/smil:musictop.smil/chunklist_w1038427347_b2028000_sleng.m3u8
+#EXTINF:-1 ,iptvtools_380
+https://59ec5453559f0.streamlock.net/mexicotv/smil:miamitvmexico/chunklist_w1931827340_b1896000.m3u8
+#EXTINF:-1 ,iptvtools_388
+http://593aed234297b.streamlock.net:1935/gotvsjoerd/gotvsjoerd/playlist.m3u8
+#EXTINF:-1 ,iptvtools_389
+http://video.chaula.tv/hls/live/high/playlist_high.m3u8
+#EXTINF:-1 ,iptvtools_391
+http://cmctv.ios.internapcdn.net/cmctv_vitalstream_com/live_1/CMC-TV/CCURstream.m3u8
+#EXTINF:-1 ,iptvtools_393
+http://deejay_tv-lh.akamaihd.net/i/DeejayTv_1@129866/index_600_av-p.m3u8
+#EXTINF:-1 ,iptvtools_394
+http://wma02.fluidstream.net/RN1TV/livestream/playlist.m3u8
